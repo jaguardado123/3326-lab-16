@@ -63,21 +63,7 @@ class Dog {
 
 Let's assume you  work at a Car Dealership.
 
-Create a class `Car` with the **private** attributes `make`, `model`, `year` and **public** attribute `owner`.  Next, create a constructor with a three parameter to set the `make`, `model`, and `year`. Finally, a **public** method `car_info()` to display all the attributes for that object.
-
-Now let's test out our Car class! <ins>Create 3 Car objects</ins> and prompt the Car Dealership manager to input the `owner`'s name for each car, then print the informatin for each car using `car_info()`. 
-
-Your output should look like:
-
-```
-Owner for Car 1: Bob
-Owner for Car 2: Carl
-Owner for Car 3: Jane
-
-Ford, Mustang, 2005 owned by Bob
-Toyota, Tundra, 2010 owned by Carl
-Chevy, Silverado, 2013 owned by Jane
-```
+Create a class `Car` with the **public** attributes `make`, `model`, and `year`.  Next, create a **constructor** with a three parameter to set the `make`, `model`, and `year`. Finally, a **public** method `is_new()` to return `true` if the car is year 2024 or 2025.
 
 ## Submit your assignment
 
