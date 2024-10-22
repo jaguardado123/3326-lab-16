@@ -1,4 +1,4 @@
-# Lab Assignment 12
+# Lab Assignment 16
 
 In this lab you will practice working with classes and objects.
 
@@ -63,7 +63,14 @@ class Dog {
 
 Let's assume you  work at a Car Dealership.
 
-Create a class `Car` with the **public** attributes `make`, `model`, and `year`.  Next, create a **constructor** with a three parameter to set the `make`, `model`, and `year`. Finally, a **public** method `is_new()` to return `true` if the car is year 2024 or 2025.
+Create a class `Car` with the **public** attributes `make`, `model`, and `year`.  Next, create a **constructor** with a three parameter to set the `make`, `model`, and `year`. Finally, create a **public** method `is_new()` to return `true` if the car is year 2024 or 2025, otherwise return `false`.
+
+You can test your solution by running the commands below in your terminal.
+
+```
+./build.sh
+./test.sh
+```
 
 ## Submit your assignment
 
