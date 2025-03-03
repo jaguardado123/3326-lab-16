@@ -20,7 +20,7 @@ Classes and objects are the core concept of Object-Oriented Programming (OOP). C
 
 <img src="img/class_objects.png" width="300px">
 
-**Attributes** are variables within an object storing data pertaining to that object. For example, look at the diagram above. Using the Dog class we can creat multiple objects representing an indivdual dogs, each with unique attributes such as `name` and `is_thirsty`.
+**Attributes** are variables within an object storing data pertaining to that object. For example, look at the diagram above. Using the Dog class we can creat multiple objects representing an indivdual dogs, each with unique attributes such as `name` and `thirsty`.
 
 **Methods** are functions within an object that perform an action for that object itself. For example, if we call the method `drink_water()` from dog1, it will only quench the thirst for dog1, thus dog2 and dog3 will remain thirsty.
 
@@ -28,6 +28,7 @@ Classes and objects are the core concept of Object-Oriented Programming (OOP). C
 
 **Code Example:**
 
+**Main.java**
 ```java
 public class Main {
     public static void main(String[] args) {
@@ -37,22 +38,27 @@ public class Main {
         Dog dog2 = new Dog("Spot");
         Dog dog3 = new Dog("Sparky");
         
-        // Quenching Rover's thirst only.
+        // Quenching Spot's thirst only.
         dog2.drink_water();
     }
 }
-
-class Dog {
-    // Attributes
+```
+**Dog.java**
+```java
+public class Dog {
+    // Attributes:
     public String name;
-    private boolean thirsty = true;
+    public boolean thirsty;
 
-    // Methods
-    public void drink_water() {
-        thirsty = false;
-    }
-    Dog(String n) {
+    // Methods:
+    // Constructor
+    public Dog(String n) {
         name = n;
+        thirsty = true;
+    }
+    public void drink_water() {
+        System.out.println(name + " is drinking!");
+        thirsty = false;
     }
 }
 ```
@@ -61,17 +67,23 @@ class Dog {
 
 ### Car Dealership
 
-Let's assume you  work at a Car Dealership.
+Let's assume you  work at a Car Dealership. Create a Car class to help you organize your cars better.
 
-Create a class `Car` with the **public** attributes `make`, `model`, and `year`.  Next, create a **constructor** with a three parameter to set the `make`, `model`, and `year`. Finally, create a **public** method `is_new()` to return `true` if the car is year 2024 or 2025, otherwise return `false`.
+1. Inside the `Car.java` file, create a **public** class `Car`.
+2. Inside the `Car` class, create three **public** attributes `model`, `make`, and `year` (year). 
+3. Next, create a **public constructor** with a three parameter to set the `model`, `make`, and `year` (in that order). 
+4. Finally, create a **public** method `is_new()` to return `true` if the car is of year 2025, otherwise return `false`.
 
-You can test your solution by running the commands below in your terminal.
+Create multiple Car objects inside the Dealership class to test your code.
+
+You can test your solution by running the command below in your terminal.
 
 ```
-./build.sh
 ./test.sh
 ```
 
 ## Submit your assignment
 
-To submit your lab assignment click on the source control icon (3 circles with 2 lines) on your leftside navbar. Next, click on the '+' symbol next to "Changes" to stage your changes. Lastly, add a commit message (ex: "First commit") and click "Commit" then "Push" or "Sync Changes". And you're done!
+[Grading Criteria](https://joselitoguardado.dev/3326/labs/Lab_16.pdf)
+
+[How to Submit Assignments to GitHub](https://joselitoguardado.dev/3326/How_to_Submit_Assignments_to_GitHub.pdf)

@@ -28,12 +28,6 @@ public class DealershipTest {
 	}
 
 	@Test
-	public void testing_car_2024() {
-        Car car = new Car("Ford", "Mustang", 2024);
-		assertEquals(true, car.is_new());
-	}
-
-	@Test
 	public void testing_car_2025() {
         Car car = new Car("Chevy", "Silverado", 2025);
 		assertEquals(true, car.is_new());
