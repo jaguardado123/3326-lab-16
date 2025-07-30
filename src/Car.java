@@ -1,1 +1,1 @@
-// Write your Car class here.
+// Write your class here.
