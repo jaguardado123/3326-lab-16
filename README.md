@@ -67,14 +67,45 @@ public class Dog {
 
 ### Car Dealership
 
-Let's assume you  work at a Car Dealership. Create a Car class to help you organize your cars better.
+Assume you are hired as a programmer at a Car Dealership. You open up their source code and to your shock, you realize the previous developrs didn't know OOP.
 
-1. Inside the `Car.java` file, create a **public** class `Car`.
-2. Inside the `Car` class, create three **public** attributes `model`, `make`, and `year` (year). 
-3. Next, create a **public constructor** with a three parameter to set the `model`, `make`, and `year` (in that order). 
-4. Finally, create a **public** method `is_new()` to return `true` if the car is of year 2025, otherwise return `false`.
+This is the code you see... Shocking isn't it.
 
-Create multiple Car objects inside the Dealership class to test your code.
+```java
+// Car 1
+String car1_make = "Totyota";
+String car1_model = "Camry";
+int car1_year = 2000;
+
+// Car 2
+String car2_make = "Ford";
+String car2_model = "Mustang";
+int car2_year = 2005;
+
+// Car 3
+String car3_make = "Nissan";
+String car3_model = "Altima";
+int car3_year = 2012;
+
+// Buyer 1
+String buyer1_name = "Bob Bobbert";
+int buyer1_phone = 1234567;
+float buyer1_creditScore = 800.0f;
+
+// Buyer 2
+String buyer1_name = "Carl Carlton";
+int buyer1_phone = 9876543;
+float buyer1_creditScore = 670.5f;
+```
+
+Copy & paste the code above into your Main class and refactor the code above to use **classes** & **objects**.
+
+Create your classes in their designated file and be sure to include the following:
+
+- Your **class is public**.
+- Your **class has a constructor**.
+- Your **class attributes are public**.
+- Your **class methods are public**.
 
 You can test your solution by running the command below in your terminal.
 
