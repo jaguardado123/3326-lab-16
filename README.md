@@ -63,6 +63,8 @@ public class Dog {
 }
 ```
 
+To learn more about classes and objects in Java visit: https://www.w3schools.com/java/java_classes.asp and https://www.programiz.com/java-programming/class-objects .
+
 ## Your Program
 
 ### Car Dealership
