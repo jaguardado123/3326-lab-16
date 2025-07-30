@@ -95,9 +95,9 @@ int buyer1_phone = 1234567;
 float buyer1_creditScore = 800.0f;
 
 // Buyer 2
-String buyer1_name = "Carl Carlton";
-int buyer1_phone = 9876543;
-float buyer1_creditScore = 670.5f;
+String buyer2_name = "Carl Carlton";
+int buyer2_phone = 9876543;
+float buyer2_creditScore = 670.5f;
 ```
 
 Copy & paste the code above into your Main class and refactor the code above to use **classes** & **objects**.
