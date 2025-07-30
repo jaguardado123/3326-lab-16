@@ -67,7 +67,7 @@ public class Dog {
 
 ### Car Dealership
 
-Assume you are hired as a programmer at a Car Dealership. You open up their source code and to your shock, you realize the previous developrs didn't know OOP.
+Assume you are hired as a programmer at a Car Dealership. You open up their source code and to your shock you realize the previous developrs didn't know OOP.
 
 This is the code you see... Shocking isn't it.
 
